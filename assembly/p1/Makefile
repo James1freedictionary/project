@@ -6,4 +6,4 @@ ld:  build
 run:  ld
 	./a.out
 clean:
-	rm -f a.o a.out
+	rm -f *.o *.out
