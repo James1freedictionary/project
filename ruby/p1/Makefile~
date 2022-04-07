@@ -1,0 +1,3 @@
+HOME=dog
+ruin:
+	echo "hi"

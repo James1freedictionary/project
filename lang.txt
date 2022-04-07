@@ -6,10 +6,10 @@ go/rust                 +-------------------------------+
                         |               |               |
                         |      java/kotlin/scala/c#     |
                         |                               |
-              python/mojo/perl/ruby           javascript/typescript
+              python/mojo/perl/ruby           javascript/typescript/lisp
           
 1. c/c++/carbon/assembly
 2. go/rust
 3. python/mojo/perl/ruby
 4. java/kotlin/scala/c#
-5. javascript/typescriipt
+5. javascript/typescriipt/lisp
