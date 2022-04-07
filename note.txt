@@ -1,5 +1,5 @@
 ==================================================
-Algorith -> Machine Learning (machine learn to do itself) -> AI
+Algorithm -> Machine Learning (machine learn to do itself) -> AI
 ==================================================
 
           +--- Pseudocodde/Algorithm
