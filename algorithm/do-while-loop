@@ -5,7 +5,7 @@ do{a}(b)
          {a}<-----+      // pseudo-diagram (1 dimension)
           |       |
           |  T    |      |
-	 (b)------+      |  flow
+         (b)------+      |  flow
         F |              | 
           |              |
          {?}
