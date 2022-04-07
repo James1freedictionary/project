@@ -1,0 +1,10 @@
+(librepcb_component_category fde92c96-dd6f-4bbb-986d-154196a75b0d
+ (name "hh")
+ (description "")
+ (keywords "")
+ (author "jame")
+ (version "0.1")
+ (created 2022-04-07T19:53:54Z)
+ (deprecated false)
+ (parent none)
+)

@@ -1,0 +1,11 @@
+(librepcb_library a2ba5f93-ef9c-4f47-92f2-b3c92bfdc3db
+ (name "Murata")
+ (description "Electronic components by Murata (unofficial).")
+ (keywords "murata")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2020-06-15T21:30:39Z)
+ (deprecated false)
+ (url "https://github.com/LibrePCB-Libraries/Murata.lplib")
+ (dependency a9ddf0c6-9b1c-4730-b300-01b4f192ad40)
+)

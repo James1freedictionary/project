@@ -1,0 +1,11 @@
+(librepcb_library 8e44980d-75f7-4a1a-92f2-9823d0e181f1
+ (name "AVX")
+ (description "Electronic components (unofficial).")
+ (keywords "avx")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2019-12-10T09:42:19Z)
+ (deprecated false)
+ (url "https://github.com/LibrePCB-Libraries/AVX.lplib")
+ (dependency a9ddf0c6-9b1c-4730-b300-01b4f192ad40)
+)

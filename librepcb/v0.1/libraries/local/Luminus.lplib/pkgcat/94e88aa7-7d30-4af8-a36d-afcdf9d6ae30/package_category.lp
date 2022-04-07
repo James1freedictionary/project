@@ -1,0 +1,10 @@
+(librepcb_package_category 94e88aa7-7d30-4af8-a36d-afcdf9d6ae30
+ (name "Luminus")
+ (description "Custom packages by Luminus components.")
+ (keywords "")
+ (author "Danilo Bargen")
+ (version "0.1")
+ (created 2018-11-08T20:13:47Z)
+ (deprecated false)
+ (parent 194951ec-03dd-412a-9828-70c40bbdd22d)
+)

@@ -1,0 +1,10 @@
+(librepcb_package_category 3f0f5992-67fd-4ce9-a510-7679870d6271
+ (name "JST")
+ (description "")
+ (keywords "jst,connectors")
+ (author "Danilo Bargen")
+ (version "0.1")
+ (created 2020-08-23T08:06:45Z)
+ (deprecated false)
+ (parent 194951ec-03dd-412a-9828-70c40bbdd22d)
+)

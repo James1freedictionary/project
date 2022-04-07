@@ -1,0 +1,11 @@
+(librepcb_library c5941334-5502-4992-b5aa-cc2f8d0d17a1
+ (name "Luminus")
+ (description "Lighting components (unofficial).")
+ (keywords "")
+ (author "LibrePCB")
+ (version "0.1.1")
+ (created 2018-11-06T20:44:37Z)
+ (deprecated false)
+ (url "https://github.com/LibrePCB-Libraries/Luminus.lplib")
+ (dependency a9ddf0c6-9b1c-4730-b300-01b4f192ad40)
+)

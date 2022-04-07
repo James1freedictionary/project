@@ -1,0 +1,12 @@
+(librepcb_library 58e570ce-a69e-466c-bbe0-65f716386e56
+ (name "Phoenix")
+ (description "Connectors, sockets and more (unofficial).")
+ (keywords "phoenix,contact,connectors")
+ (author "LibrePCB")
+ (version "0.1.1")
+ (created 2019-06-14T22:41:50Z)
+ (deprecated false)
+ (url "https://github.com/LibrePCB-Libraries/Phoenix.lplib")
+ (dependency 6ccc516c-21b7-4cd5-9cf2-7a04cfa361c6)
+ (dependency a9ddf0c6-9b1c-4730-b300-01b4f192ad40)
+)

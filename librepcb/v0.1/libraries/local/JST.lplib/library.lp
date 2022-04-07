@@ -1,0 +1,11 @@
+(librepcb_library 7ca0e481-03e2-4392-b84c-5e75e682e64d
+ (name "JST")
+ (description "Connectors by JST Sales America Inc (unofficial).")
+ (keywords "")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2020-08-17T22:58:03Z)
+ (deprecated false)
+ (url "https://github.com/LibrePCB-Libraries/JST.lplib")
+ (dependency a9ddf0c6-9b1c-4730-b300-01b4f192ad40)
+)

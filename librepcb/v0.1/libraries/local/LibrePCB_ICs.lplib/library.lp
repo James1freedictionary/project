@@ -1,0 +1,11 @@
+(librepcb_library 326f091b-b715-44bf-b385-b613cd60d9f3
+ (name "LibrePCB Integrated Circuits")
+ (description "Official LibrePCB Integrated Circuits")
+ (keywords "")
+ (author "LibrePCB")
+ (version "0.1.5")
+ (created 2016-09-28T21:48:03Z)
+ (deprecated false)
+ (url "https://github.com/LibrePCB-Libraries/LibrePCB_ICs.lplib")
+ (dependency a9ddf0c6-9b1c-4730-b300-01b4f192ad40)
+)

@@ -1,0 +1,11 @@
+(librepcb_library 8ba83e8b-46b5-45e9-81c4-1afee9152e0c
+ (name "KEMET")
+ (description "Capacitors and other electronic components (unofficial)")
+ (keywords "capacitors,kemet")
+ (author "LibrePCB")
+ (version "0.1")
+ (created 2019-04-16T20:20:42Z)
+ (deprecated false)
+ (url "https://github.com/LibrePCB-Libraries/KEMET.lplib")
+ (dependency a9ddf0c6-9b1c-4730-b300-01b4f192ad40)
+)

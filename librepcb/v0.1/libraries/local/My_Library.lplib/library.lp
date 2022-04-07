@@ -1,0 +1,10 @@
+(librepcb_library defadd3c-bb33-4b9a-ad57-f6545c754949
+ (name "My Library")
+ (description "")
+ (keywords "")
+ (author "jame")
+ (version "0.1")
+ (created 2022-04-07T19:52:37Z)
+ (deprecated false)
+ (url "")
+)
