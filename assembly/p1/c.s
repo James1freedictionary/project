@@ -1,25 +1,34 @@
 	.file	"c.c"
+	.intel_syntax noprefix
 	.text
 	.section	.rodata
 .LC0:
-	.string	"hello world %d"
+	.string	"hi"
 	.text
 	.globl	main
 	.type	main, @function
 main:
 .LFB0:
 	.cfi_startproc
-	pushq	%rbp
+	push	rbp
 	.cfi_def_cfa_offset 16
 	.cfi_offset 6, -16
-	movq	%rsp, %rbp
+	mov	rbp, rsp
 	.cfi_def_cfa_register 6
-	movl	$1, %esi
-	movl	$.LC0, %edi
-	movl	$0, %eax
+	sub	rsp, 16
+	mov	DWORD PTR [rbp-4], 2
+	jmp	.L2
+.L3:
+	mov	edi, OFFSET FLAT:.LC0
+	mov	eax, 0
 	call	printf
+	add	DWORD PTR [rbp-4], 1
+.L2:
+	cmp	DWORD PTR [rbp-4], 10
+	jle	.L3
 	nop
-	popq	%rbp
+	nop
+	leave
 	.cfi_def_cfa 7, 8
 	ret
 	.cfi_endproc
