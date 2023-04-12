@@ -41,13 +41,10 @@ void print_p(struct product* p, int i){
             ((&p[count])->name)[i] = '\0';
         }
     }
-    char s_id[2];sprintf(s_id, )
-    char s_ qty[3];
-    char s_price[5];
-    char s_amount[6];
+
     if (count == 0) puts(" id | name | qty | price | amount ");  
     puts("----+------+-----+-------+--------");
-    printf(" %-2.2d | %-4.4s | %-3d | %-5g | %-6.4f \n", (&p[count])->id,(&p[count])->name,(&p[count])->qty,(&p[count])->price,(&p[count])->amount);                                                                        
+    printf(" %-2.2d | %-4.4s | %-3d | %-5g | %-6.6f \n", (&p[count])->id,(&p[count])->name,(&p[count])->qty,(&p[count])->price,(&p[count])->amount);                                                                        
 } }
 void run_p(){
 

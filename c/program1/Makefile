@@ -3,7 +3,6 @@ defualt: build
 build: build-static
 build-static: ${file}
 	gcc -static main.c product.c -lm
-
 build-dynamic: ${file}
 	gcc main.c product.c -lm
 build-nolink: ${file}
