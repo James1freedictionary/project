@@ -1,0 +1,17 @@
+name: gpdf
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: texlive/texlive:latest-small
+    steps:
+      - uses: actions/checkout@v3
+      - name: configure
+        run: chmod +x configure.sh && ./configure.sh
+      - name: build
+        run: chmod +x build.sh && ./build.sh
+      - name: transfer
+        run: chmod +x transfer.sh && ./transfer.sh
+      - uses: actions/upload-artifact@v3
+        with:
+          path: ./*/*.pdf
