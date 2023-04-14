@@ -11,6 +11,7 @@ char answer[10];
 
 label1:
 	int n_of_case;
+	puts("0. for test");
 	puts("1. find max of 2 numbers");
 	puts("2. find root of linear equation");
 	puts("3. find name of each month");
@@ -23,6 +24,7 @@ label1:
 	puts("10. Insert products");
 	puts("11. write text to file");
 	puts("12. read text from file");
+
 	printf("Please choose one of them: ");scanf("%d", &n_of_case);
 	switch(n_of_case){
 		case 1: 

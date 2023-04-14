@@ -9,5 +9,7 @@ build-nolink: ${file}
 	gcc -c -fPIC main.c product.c 
 run: build
 	./a.out
+test: test.c
+	gcc test.c && ./a.out
 clean: 
 	rm -rf *.o a.out
