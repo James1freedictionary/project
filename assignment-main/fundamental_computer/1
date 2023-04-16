@@ -1,0 +1,69 @@
+ក្រុបទី 2
+1. សាម៉ន រដ្ឋា (ប្រធានក្រុម)
+2.សុខ វីវ៉ា
+3.សុីម រតនា
+4.សីហា ឆានន់
+5.សូ លីហុង
+6.ស៊ូ ចាន់រ៉ូជែម
+7.សុំ សុភ័ត្រា
+--------------------------
+
+1. កុំព្យូទ័រគឺជាម៉ាសុីនអេឡិចត្រូនិចដែលទទួលយក DATA នឹង INSTRUCTION ពីអ្នកប្រើប្រាស់ ហើយសម្របសម្រួលអោយទៅជាបញ្ជាមួយដើម្បីដំណើរការបានព័ត៍មាន សម្រាប់បង្ហាញនិងផ្ទុក 
+2. កុំព្យូទ័រដំណើរការដោយទទួលយក DATA រួចដំណើរការ DATA ដោយ ARITHMETIC នឹង LOGIC រួចផ្តល់ OUTPUT
+3. កុំព្យូទ័រមាន 4 ប្រភេទ
+4. 
+ 4.1. INPUT គឺការបញ្ចូល DATA
+ 4.2. PROCESS គឺការដំណើរការ DATA
+ 4.3. DATA ជាទិន្នន័យ
+ 4.4. INSTRUCTION ជាពាក្យបញ្ជា
+ 4.5. IBM ដំណើរការលើ MS WINDOWS, LINUX, SOLARIS ឯ APPLE COMPUTER ដំណើរការលើ MAC OS 
+5. CHARACTERISTICS OF COMPUTER មាន SPEED, ATTENTION, REGULARITY, SKILL, MEMORY, FEELING
+6. SYSTEM UNIT ជាផ្នែកមួយនៃ COMPUTER ដែលមានឧបករណ៍សំខាន់ ដែលដំណើរការនឹងបង្កើតលទ្ធភាពសម្រាប់គណនាស្មុគស្មាញ
+7. MONITOR -> បង្ហាញរូបភាព
+   EXTERNAL SPEAKER -> សម្លេង
+   KEYBOARD -> បញ្ចូលអក្សរ
+   COMPUTER TOWER -> ផ្ទុក CPU, RAM ...
+   HARD DRIVE -> ផ្ទុក DATA
+   MOUSE -> POINT TO TEXT, FOLDER, FILE ... 
+   INKJET PRINTER -> ព្រីន
+   LASER PRINTER -> ព្រីន
+8. COMPUTER ប្រើប្រព័ន្ធគោល 2 ព្រោះ CPU, RAM, ROM នឹង ឧបករណ៍ផ្សេងទៀត ដែលសៀគ្វីវាមាន TRANSISTOR បង្កើតបានទេ ON(1) នឹង OFF(0)
+9. CPU, MONITOR, MOUSE, HARD DISK, RAM
+10. 4000b
+11. 64000b
+12. 01000101
+13. CLIPBOARD, FONT, PARAGRAPH, STYLES, EDITING
+14. 
+   INTRODUCTION TO COMPUTER SYSTEM (ណែនាំពី COMPUTER):
+   - COMPUTER FUNDAMENTALS (មូលដ្ឋននៃ COMPUTER):
+     - INPUT UNIT (ទិន្នន័យបញ្ចូល)
+     - OUPUT UNIT (លទ្ធផល)
+     - CPU (ខួរក្បាលនៃ COMPUTER)
+     - MEMORY UNIT (ឧបករណ៍ សម្រាប់ផ្ទុក DATA)
+   - COMPUTER DEFINITION (និយមន័យ COMPUTER): 
+     - COMPUTER SYSTEM (មាសុីនប្រូក្រាមអេឡិចត្រូនិច ដែល ទទួលយក INPUT ដំណើរការ DATA ផ្តល់ OUTPUT
+   - COMPONENTS OF COMPUTER:
+     - HARDWARE (ផ្នែករឹង): MOUSE, CPU, KEYBOARD ...
+     - SOFTWARE (កម្មវិធី): OS, WORD, EXCEL ...
+    
+   - CHARACTERISTIC OF COMPUTER (លក្ខណៈនៃCOMPUTER) :
+     - SPEED (ល្បឿន)
+     - ACCURACY OF OPERATION  (គណនាត្រឹមត្រូវ)
+     - DATA STORAGE (ផ្ទុកទិន្នន័យ)
+     - LOGICAL DISCISION (សម្រេចចិត្តជាឡូជីក)
+     - REPETITIVE TASK (ការងារដដែល)
+   - FEATURE OF COMPUTER (លក្ខណៈនៃCOMPUTER):
+     - COMPUTER IS PROGRAMABLE (កុំព្យូទ័រអាចប្រូក្រាម)
+     - CONVERT DATA TO INFORMATION (ប្រែទិន្នន័យជាព័ត៍មាន)
+     - EXECUTE MACHINE INSTRUCTIONS (ប្រតិបត្តិពាក្យបញ្ជាមាសុីន)
+     - UNDERSTAND BINARY (0,1) (យល់ប្រព័ន្ធគោល2)
+   - HOW COMPUTER WORKS (ដំណើរការនៃ COMPUTER): |
+      INPUT UNIT -> MEMORY UNIT -> OUTPUT UNIT
+           ^              ^             ^
+           |              |             |
+           |              v             |
+           +------- CONTROL UNIT -------+
+                          |
+                         ALU
+                          |
+                       REGISTERS

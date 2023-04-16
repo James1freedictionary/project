@@ -1,0 +1,6 @@
+/project.bundle
+kotlin/**/out/
+node_modules
+ts+typesnode.txz.tar
+*.out
+rust/**/target
