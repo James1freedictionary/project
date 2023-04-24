@@ -1,32 +1,28 @@
 // copyright (c) 2023 - james1freedictionary
+#ifndef __GNUC__
+#include <conio.h>
+#endif
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
+#include <stdlib.h>
+#include "problem.h"
 #include "product.h"
 
-void main(void)
+void main(int* argc, char** argv)
 {
 
 char answer[10];
-
+int n_of_case;
 label1:
-	int n_of_case;
-	puts("0. for test");
-	puts("1. find max of 2 numbers");
-	puts("2. find root of linear equation");
-	puts("3. find name of each month");
-	puts("4. find area of circle");
-	puts("5. find area of rectangle");
-	puts("6. find name of month number");
-	puts("7. find root of two degree polynomial equation");
-	puts("8. find how many day of each month");
-	puts("9. find name of each month");
-	puts("10. Insert products");
-	puts("11. write text to file");
-	puts("12. read text from file");
-
+	run_problem();
 	printf("Please choose one of them: ");scanf("%d", &n_of_case);
 	switch(n_of_case){
+		case 0: 
+				int n0;
+				printf("Input n: ");scanf("%d", &n0);
+				printf("The number is %s\n", n0 % 2 == 0 ? "even" : "odd");
+				break;
 		case 1: 
 				double n1,n2,max; // find max of 2 number
 				printf("Enter n1: ");scanf("%lf", &n1);
@@ -148,7 +144,7 @@ label1:
 			case 12:puts("dece");break;
 			default: puts("error");
 			}	break;
-		case 10: run_p(); break;
+		case 10: run_p(); break; // run in the product.c
 		case 11: // write text to file
 			char name[50];
 			char text[8000000];
@@ -180,7 +176,50 @@ label1:
 				putc(chr, stdout);
 			}
 
-			
+		case 13: // reverse integer 
+			long n5, rev= 0; 
+
+			printf("Enter number: ");scanf("%ld", &n5);
+			while (n5 != 0 ){
+				rev = rev * 10 + n5 % 10;
+				n5 = n5 /10;
+			}
+			printf("The reverse is %ld\n", rev);break; 
+		case 14: // calculate sum of integer 1,2,3,...,n
+			long n6,sum=0;
+			printf("Enter n: ");scanf("%ld", &n6);
+			for (int i = 0; i<n6;i++){
+				sum = sum + i+1;
+			}
+			printf("The sum is %ld\n", sum);
+			break;
+		case 15: // calculate n! = 1x2x3x...xn
+			unsigned long n7;
+			long long p=1;
+			printf("Enter n (n>=0): ");scanf("%lu", &n7);
+			for (int i=0;i<n7;i++){
+				p = p * (i+1);
+			}
+			printf("The %lu! = %lld\n", n7,p);break;
+		case 16: // calcuale the sum of 1,3,5,7,...,(2n-1)
+			unsigned long n8;
+			unsigned long long sum1=0;
+			printf("Enter n: ");scanf("%lu", &n8);
+			for (int i=0;i<n8;++i){
+				sum1 = sum1 + 2*(i+1)-1;
+			}
+			printf("The sum is %llu\n", sum1);
+			break;
+		case 17: // reverse string
+			char string[100];
+			char rev_str[100];
+			printf("Please Enter String: ");getchar();fgets(string, 100, stdin);
+			if (string[strlen(string)-1] == '\n') string[strlen(string)-1] = '\0';
+			for (int i = 0; i<strlen(string); ++i){
+				rev_str[i] = string[strlen(string)-1-i];
+			}
+			printf("%s\n", rev_str);
+			break;
 		default: puts("Error");
 
 
@@ -192,7 +231,7 @@ label2:
 	printf("Do you choose again? (yes/no): ");
 	scanf("%s", answer);
 	if (strcmp(answer, "no") == 0 ||strcmp(answer, "n") == 0  ){
-	puts("bye bye!");
+	puts("bye bye!"); exit(1);
 	} else if (strcmp(answer, "yes") == 0 || strcmp(answer, "y") == 0)
 	{
 	goto label1;

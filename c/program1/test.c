@@ -1,11 +1,18 @@
-#define __USE_ISOC99
-#undef __GNUC_PREREQ (3, 3)
-#include "product.h"
-
+// #ifndef __GNUC__
+// #include <condio.h>
+// #endif
+#include <stdio.h>
+#include <float.h>
+ #include <limits.h>
+#include <stdlib.h>
+struct dog{
+  char* name;
+  int age;
+};
+void dog(){
+  return;
+}
 void main(void)
 {
-    // normal use
-  
-    printf("sqrt(100) = %f\n", NAN) ;
-  
-}
+  int d = dog()
+   }

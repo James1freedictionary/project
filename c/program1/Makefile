@@ -1,12 +1,14 @@
-file := main.c product.c product.h
+c_file := main.c product.c problem.c
+h_file := product.h problem.h
+file := ${c_file} ${h_file}
 defualt: build
 build: build-static
 build-static: ${file}
-	gcc -static main.c product.c -lm
+	gcc -static ${c_file} -lm
 build-dynamic: ${file}
-	gcc main.c product.c -lm
+	gcc ${c_file} -lm
 build-nolink: ${file}
-	gcc -c -fPIC main.c product.c 
+	gcc -c -fPIC ${c_file} 
 run: build
 	./a.out
 test: test.c
